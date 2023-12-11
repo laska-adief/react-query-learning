@@ -1,0 +1,23 @@
+nav {
+  padding: 1rem;
+  background: #092635;
+  display: flex;
+  gap: 1rem;
+  box-shadow: 0 2px 4px 0px #092635de;
+}
+
+nav a {
+  font-size: 1.2rem;
+  color: #fff7d4;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover,
+nav a.active-link {
+  color: #eec759;
+}
+
+.container {
+  margin: 1rem auto;
+  max-width: 1200px;
+}
