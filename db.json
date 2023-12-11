@@ -1,0 +1,19 @@
+{
+  "superheroes": [
+    {
+      "id": "1",
+      "name": "Iron Man",
+      "actor": "Tony Stark"
+    },
+    {
+      "id": "2",
+      "name": "Spiderman",
+      "actor": "Peter Parker"
+    },
+    {
+      "id": "3",
+      "name": "Hulk",
+      "actor": "Bruce Banner"
+    }
+  ]
+}
