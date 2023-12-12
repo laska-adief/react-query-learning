@@ -5,7 +5,7 @@ const Navbar = () => {
   const currentPath = location.pathname;
 
   return (
-    <nav>
+    <nav className="container">
       <Link to="/" className={currentPath === "/" ? "active-link" : ""}>
         Home
       </Link>
