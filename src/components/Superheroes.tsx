@@ -3,13 +3,17 @@ import { Hero } from "../types";
 import { fetchAllHeroes } from "../hooks/heores/fetchHeroes";
 
 const Superheroes = () => {
-  const { data, isLoading } = useQuery({
+  const { data, isLoading, isError } = useQuery({
     queryKey: ["superheroes"],
     queryFn: fetchAllHeroes,
   });
 
   if (isLoading) {
     return <h2>Loading...</h2>;
+  }
+
+  if (isError) {
+    return <h2>Fetching Failed</h2>;
   }
 
   return (
